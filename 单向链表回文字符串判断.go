@@ -1,0 +1,5 @@
+package dataStructAndAlgorithm
+
+func LinkListPalindrome() {
+
+}
