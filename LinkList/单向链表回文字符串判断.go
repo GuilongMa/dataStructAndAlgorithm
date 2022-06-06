@@ -1,4 +1,4 @@
-package dataStructAndAlgorithm
+package LinkList
 
 func LinkListPalindrome() {
 
