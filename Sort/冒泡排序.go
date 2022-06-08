@@ -1,1 +1,15 @@
 package Sort
+
+func BubbleSort(array []int) []int {
+	// 执行n次冒泡
+	for i := 0; i < len(array); i++ {
+		for j := 0; j < len(array)-1; j++ {
+			if array[j] > array[j+1] {
+				tmp := array[j]
+				array[j] = array[j+1]
+				array[j+1] = tmp
+			}
+		}
+	}
+	return array
+}
